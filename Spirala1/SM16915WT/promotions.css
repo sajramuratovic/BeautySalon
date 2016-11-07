@@ -1,0 +1,71 @@
+.pro{
+background: lightgrey;
+margin: 0 auto;
+}
+.pro img {
+    max-width: 100%;
+    height: auto;
+}
+.pro img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.container1 {
+margin-top:5px;
+margin-bottom:5px;
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.container1 .topleft h3{
+font-size:25px;
+}
+.container1 .topleft h3 p{
+font-size:15px;
+}
+
+@media screen and (max-width: 900px) {
+.topleft {
+    left: 5px;
+}
+	
+.container1 .topleft h3{
+font-size:25px;
+}
+.container1 .topleft  p{
+font-size:15px;
+}
+}
+
+
+@media screen and (max-width: 758px) {
+.topleft {
+    left: 5px;
+}
+	
+.container1 .topleft h3{
+font-size:15px;
+}
+.container1 .topleft  p{
+font-size:10px;
+}
+}
+@media screen and (max-width: 412px) {
+.topleft {
+    left: 5px;
+}
+	
+.container1 .topleft h3{
+font-size:7px;
+}
+.container1 .topleft  p{
+font-size:7px;
+}
+}

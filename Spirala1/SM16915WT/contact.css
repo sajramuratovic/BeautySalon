@@ -1,0 +1,93 @@
+#form-main {
+   width: 100%;
+   text-align: center;
+   margin:auto;
+    background-color: darksalmon;
+ }
+ 
+#form-div {  
+   padding-left: 5%;
+   padding-right:  5%;
+   padding-top:  5%;
+   padding-bottom: 5%;
+   text-align: left;
+   margin:auto;
+   width:50%; 
+ }
+ 
+  .feedback-input {
+   color: #3c3c3c;
+  font-weight: 500;
+   font-size: 18px;
+   border-radius: 0;
+   line-height: 22px;
+   background-color: #fbfbfb;
+  margin-bottom: 10px;
+   width:100%;
+   border: 3px solid rgba(0, 0, 0, 0);
+ }
+ 
+ input:hover,
+ textarea:hover,
+ input:focus,
+ textarea:focus {
+   background-color: white;
+ }
+ .text{
+	 margin-bottom: 0;
+ }
+ 
+ #button-contact {
+   float: left;
+     width: 30%;
+   border: #fbfbfb solid 2px;
+   background-color: gray;
+   color: white;
+   font-size: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   margin-top: -4px;
+   font-weight: 500;
+ }
+ 
+ #button-contact:hover {
+   background-color: darksalmon;
+   
+ }
+ 
+ .submit:hover {
+   color: #3498db;
+ }
+ 
+ label{
+   color:white;
+   font-size:18px;
+ }
+ .submit:hover .ease {
+   width: 100%;
+   background-color: white;
+ }
+ h3{
+font-size: 25px;
+margin-bottom: 10px;
+margin-left:5px;
+margin-right:5px;
+margin-top:5px;
+ }
+ 
+@media screen and (max-width: 758px) {
+#button-contact {
+   font-size: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-weight: 500;
+ }
+ 
+}

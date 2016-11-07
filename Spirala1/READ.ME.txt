@@ -1,0 +1,36 @@
+Sajra Muratovic 
+Broj indeksa: 16915
+
+Spirala 1:
+a) napravljene su skice svih podstranica, kao i skice podstranica na mobilnom uredjaju
+NAPOMENA:
+Neke stvari koje su nacrtane na slikama nisu uradjene, kao sto je npr mijenjanje slika/ backgrounda na pocetnoj strani,
+sto ce naravno u nastavku projekta biti izvrseno, takodjer navigation map na podstranici contact itd.
+
+b) Sve stranice su respozivne i imaju grid view izgled
+Podstranice su dijeljene u kolone i redove, i na osnovu toga projektovane 
+
+c) Postoji izgled za mobilne uredjaje, napravljen uz pomoc media guery-e takodjer uradjen dio pod a) napravljene
+skice, kao sto je vec receno
+
+d) Imlementirane su 3 html forme
+Forme: Sign in
+           Register
+           Have a question
+e) Implementiran je navigation meni koji je vidljiv na svim podstranicama
+NAPOMENA: Vjerovatno ce u nastavku projekta biti dodano jos podstranica
+
+f) Izgled je konzistentan, elementi su poravnati
+
+Nisu koristeni linkovi sa apsolutnim putanjama, nisu koristene biblioteke i framework
+Slike su smjestene u folderu images, takodjer postoji i folder Skice sa skicama
+
+BUGOVI:
+Neke dijelove podstranica nisam uspjela lijepo "resize" u media querima, iako postoji izgled za mobilne uredjaje za 
+sve podstranice
+
+Svi html kodovi i css su provjereni uz pomoc stranica:
+https://jigsaw.w3.org/css-validator
+https://validator.w3.org/nu/
+Nije bilo errora ni warninga u codu.
+ 
