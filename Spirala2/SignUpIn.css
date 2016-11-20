@@ -1,0 +1,85 @@
+.formleft{
+width:50%;
+float:left;
+}
+
+.formright{
+width: 50%;
+    float:right;
+
+}
+.forme{
+padding-left:50px;
+padding-top:50px;
+padding-bottom:50px;
+padding-right:50px;
+}
+.forme h3{
+font-size:40px;
+color:black;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+border-radius: 5px;
+}
+.button-login {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.button-register {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+font-weight: bold;
+border-radius: 5px;
+}
+.val_error{
+	color:red;
+}
+
+@media screen and (max-width: 816px) {
+.formleft{
+width:100%;
+
+}
+
+.formright{
+width: 100%;
+
+}
+
+.forme h3{
+font-size:30px;
+
+}
+
+.button-login {
+    width: 50%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.button-register {
+
+    width: 50%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+}

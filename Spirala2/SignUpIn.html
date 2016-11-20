@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Beauty salon </title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="SignUpIn.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   </head>
+   <body>
+      <header id="header">
+         <div class="container">
+            <div class= "logo">
+               <h2><i class= "fa fa-heart"></i> Beauty Salon Glow</h2>
+            </div>
+            <nav id="nav">
+               <ul>
+                  <li><a href= "index.html" class="active">Home</a></li>
+                  <li><a href= "aboutUs.html">About us</a></li>
+                  <li><a href= "services.html">Services</a></li>
+                  <li><a href= "promotions.html">Promotions</a></li>
+                  <li><a href= "contact.html">Contact</a></li>
+				  <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropdownbutton" onclick="DropdownFunction()">Links</a>
+                  <div class="dropdown-content" id="myDropdownMenu">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                  </div>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <div id= "slider" style="background-image: url('images/background.jpg');" >
+      </div>
+      <div class= "FormRegisterLogin">
+         <div class="formleft">
+            <div class="forme">
+               <form class="form" id="form1" onsubmit="return ValidateForm1()">
+			   <h3>Login</h3>
+                  <div>
+                     <input type="text" name="username1" placeholder="Username">
+                     <div id="name_error1" class="val_error"></div>
+                  </div>
+                  <div>
+                     <input type="email" name="email1" placeholder="Email">
+                     <div id="email_error1" class="val_error"></div>
+                  </div>
+                  <div>
+                     <input type="password" name="password1" placeholder="Password">
+                     <div id="password_error1" class="val_error"></div>
+                  </div>
+                  <div>
+                     <input type="submit" class="button-login" name="register" value="Login">
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="formright">
+            <div class="forme">
+               <form class="form" id="form2" onsubmit="return ValidateForm2()">
+			   <h3>Register</h3>
+                  <div>
+                     <input type="text" name="username2" placeholder="Username">
+                     <div id="name_error2" class="val_error"></div>
+                  </div>
+                  <div>
+                     <input type="email" name="email2"  placeholder="Email">
+                     <div id="email_error2" class="val_error"></div>
+                  </div>
+                  <div>
+                     <input type="password" name="password2" placeholder="Password">
+                  </div>
+                  <div>
+                     <input type="password" name="password_confirmation" placeholder="Password confirmation">
+                     <div id="password_error2" class="val_error"></div>
+                  </div>
+                  <div>
+                     <input type="submit" class="button-register" name="register" value="Register">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <section>
+         <div class="container">
+            <div class= "icon">
+               <i class= "fa fa-facebook"></i>
+            </div>
+            <div class="description">
+               <h3>Facebook Marketing</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+               </p>
+            </div>
+            <div class= "icon">
+               <i class= "fa fa-twitter"></i>
+            </div>
+            <div class="description">
+               <h3>Twitter Marketing</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+               </p>
+            </div>
+            <div class= "icon">
+               <i class= "fa fa-google-plus"></i>
+            </div>
+            <div class="description">
+               <h3>Google Plus Marketing</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+               </p>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <div class="logmenu">
+               <ul>
+                  <li><a href= "SignUpIn.html">Sign in</a></li>
+                  <li><a href= "SignUpIn.html">Sign out</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+	  <script src="signUpIn.js"></script>
+	  <script src="dropdownMenu.js"></script>
+   </body>
+</html>
