@@ -11,7 +11,7 @@ kao i serijalizacija o registrovanim korisnicima.
 Registrovani korisnici nemaju nikakve privilegije, samo je napravljeno da se prilikom
 registracije, njihovi podaci spremaju u XML/registrovaniKorisnici, dok se clanci
 spremaju u XML/articles.xml
-Sve manipulacije sa podacima, kao sto su unos, izmjena, prikazivanje i brisanje, je radjeno 
+Sve manipulacije sa podacima, kao sto su unos, izmjena, prikazivanje i brisanje, su uradjene 
 samo sa podacima u articles.xml
 Logovanje je omoguceno samo adminu, sa podacima username: admin
 email: admin@gmail.com
