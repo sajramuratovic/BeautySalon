@@ -13,6 +13,7 @@ registracije, njihovi podaci spremaju u XML/registrovaniKorisnici, dok se clanci
 spremaju u XML/articles.xml
 Sve manipulacije sa podacima, kao sto su unos, izmjena, prikazivanje i brisanje, su uradjene 
 samo sa podacima u articles.xml
+Ovi clanci se dodaju na podstranici AboutUs.
 Logovanje je omoguceno samo adminu, sa podacima username: admin
 email: admin@gmail.com
 password: 12345678
