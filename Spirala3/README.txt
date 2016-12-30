@@ -49,5 +49,8 @@ i po autorima clanaka;
 Pritiskom na dugmem ispisuju se rezultati koji zadovoljavaju uslov;
 Nema bugova;
 
+Dodatni bod:
+Na ovom linku se nalazi deployana stranica: 
+http://beauty-salon-by-sajra-beautysalonbysajra.44fs.preview.openshiftapps.com/index.php
 
 NAPOMENA: Zadatak 1: Editovanje, dodavanje, i brisanje radi odlicno ako ne unosimo identicne naslove (bug koji je prethhodno objasnjen)
