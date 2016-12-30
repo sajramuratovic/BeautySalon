@@ -1,0 +1,38 @@
+.services {
+    background: lightgrey;
+    margin: 0 auto;
+}
+
+.services .titlebig{
+font-size: 40px;
+}
+ 
+.services .table .name-option{
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 20px;
+}
+
+ .services .table .time-option{
+padding: 8px;
+font-size: 20px;
+ }
+
+ .services .table .price-option{
+padding: 8px;
+font-size: 20px;
+}
+
+.block-menu{
+margin-left: 25px;
+}
+ 
+tr{
+   line-height: 30px;
+   
+}
+th{
+   opacity:0.8;
+   background-color:#322615;
+  
+}
