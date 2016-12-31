@@ -3,7 +3,11 @@ width:50%;
 float:left;
 }
 
+.formright{
+width: 50%;
+float:right;
 
+}
 .forme{
 padding-left:50px;
 padding-top:50px;
@@ -48,7 +52,7 @@ border-radius: 5px;
 .val_error{
 	color:red;
 }
- 
+
 @media screen and (max-width: 816px) {
 .formleft{
 width:100%;
@@ -77,5 +81,4 @@ border-radius: 5px;
 font-weight: bold;
 border-radius: 5px;
 }
-
 }
