@@ -200,7 +200,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    <head>
       <title> Beauty salon </title>
       <link rel="stylesheet" href="style.css" />
-      <link rel="stylesheet" href="SignUpIn.css" />
+      <link rel="stylesheet" href="signUpIn.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
