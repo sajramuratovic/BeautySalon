@@ -332,6 +332,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          </div>
       </footer>
 	  <script src="signUpIn.js"></script>
-	  <script src="dropdownMenu.js"></script>
    </body>
 </html>
