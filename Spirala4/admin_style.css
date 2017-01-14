@@ -1,0 +1,142 @@
+.formaZaSearch{
+width:100%;
+float: left;
+}
+.forma1{
+padding-left:50px;
+padding-top:70px;
+padding-bottom:50px;
+padding-right:50px;
+}
+.forma1 h3{
+font-size:40px;
+color:black;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+border-radius: 5px;
+}
+textarea{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+border-radius: 5px;
+}
+
+.button-search {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+font-weight: bold;
+border-radius: 5px;
+}
+.val_error{
+	color:red;
+}
+
+------------------
+.formleft1{
+width:50%;
+float:left;
+}
+
+
+.formee{
+padding-left:50px;
+padding-top:70px;
+padding-bottom:50px;
+padding-right:50px;
+}
+.formee h3{
+font-size:40px;
+color:black;
+}
+
+
+.button-pdf {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.button-csv {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.button-xml {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.val_error{
+	color:red;
+}
+ 
+@media screen and (max-width: 816px) {
+.formleft1{
+width:100%;
+
+}
+
+.formright2{
+width: 100%;
+
+}
+
+.formee h3{
+font-size:30px;
+
+}
+
+.button-pdf {
+    width: 50%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.button-csv {
+
+    width: 50%;
+font-weight: bold;
+border-radius: 5px;
+}
+.button-xml {
+
+    width: 50%;
+font-weight: bold;
+border-radius: 5px;
+}
+
+}
+ 
+
